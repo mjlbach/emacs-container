@@ -53,7 +53,6 @@ Save in REGISTER or in the kill-ring with YANK-HANDLER."
     (evil-first-non-blank)
     (message (concat (number-to-string beg) "\n" (number-to-string end)))))
 
-(evil-mode)
 (use-package evil-collection
  :after evil
  :ensure t
